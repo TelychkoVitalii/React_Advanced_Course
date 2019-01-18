@@ -12,6 +12,9 @@ import React, { Component } from 'react';
 // import RenderPropsPattern from './topics/React.RenderProps/RenderPropsPattern';
 // import ProsProxy from './topics/React.HOC/PropsProxy';
 // import ControlledInputAbstraction from './topics/React.HOC/ControlledInputAbstraction';
+// import ShouldComponentUpdate from './topics/React.Performance/ShouldComponentUpdate';
+// import PureComponent from './topics/React.Performance/PureComponent';
+import Recompose from './topics/React.Performance/Recompose';
 
 export default class App extends Component {
   render() {
@@ -30,6 +33,9 @@ export default class App extends Component {
         {/*<RenderPropsPattern />*/}
         {/*<ProsProxy />*/}
         {/*<ControlledInputAbstraction />*/}
+        {/*<PureComponent />*/}
+        {/*<ShouldComponentUpdate />*/}
+        <Recompose />
       </>
     );
   }
