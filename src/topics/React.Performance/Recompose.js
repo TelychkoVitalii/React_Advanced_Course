@@ -1,6 +1,6 @@
 // import React, { Children } from 'react';
 // import pure from 'recompose/pure';
-//
+
 // const DatagridBody = ({ resource, ids, data, children }) => (
 //   <tbody>
 //   {ids.map(id => (
@@ -21,6 +21,7 @@
 
 // import React, { Children } from 'react';
 // import onlyUpdateForKeys from ‘recompose/onlyUpdateForKeys’;
+//
 // const DatagridBody = ({ resource, ids, data, children }) => (
 // ...
 // );

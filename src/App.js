@@ -13,8 +13,9 @@ import React, { Component } from 'react';
 // import ProsProxy from './topics/React.HOC/PropsProxy';
 // import ControlledInputAbstraction from './topics/React.HOC/ControlledInputAbstraction';
 // import ShouldComponentUpdate from './topics/React.Performance/ShouldComponentUpdate';
-// import PureComponent from './topics/React.Performance/PureComponent';
-import Recompose from './topics/React.Performance/Recompose';
+import PureComponent from './topics/React.Performance/PureComponent';
+// import Recompose from './topics/React.Performance/Recompose';
+// import InheritanceInversion from './topics/React.HOC/InheritanceInversion';
 
 export default class App extends Component {
   render() {
@@ -33,9 +34,10 @@ export default class App extends Component {
         {/*<RenderPropsPattern />*/}
         {/*<ProsProxy />*/}
         {/*<ControlledInputAbstraction />*/}
-        {/*<PureComponent />*/}
+        <PureComponent />
         {/*<ShouldComponentUpdate />*/}
-        <Recompose />
+        {/*<Recompose />*/}
+        {/*<InheritanceInversion />*/}
       </>
     );
   }

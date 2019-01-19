@@ -35,26 +35,24 @@ import validator from '../validator';
 //   }
 // }
 
-class InputAbstractionRenderProps extends Component {
+class FormProvider extends Component {
   fields = {};
 
   getField = fieldName => {
-    if(!this.fields[fieldName])
-    {
-      this.fields[fieldName] =
-        {
-          value: '',
-          message: '',
-          onChange: event => {
-            this.fields[fieldName].value = event.target.value;
-            if(validator.type[fieldName].rule(this.fields[fieldName].value)) {
-              this.fields[fieldName].message = validator.type[fieldName].message;
-            } else {
-              this.fields[fieldName].message = '';
-            }
-            this.forceUpdate();
+    if(!this.fields[fieldName]) {
+      this.fields[fieldName] = {
+        value: '',
+        message: '',
+        onChange: event => {
+          this.fields[fieldName].value = event.target.value;
+          if(validator.type[fieldName].rule(this.fields[fieldName].value)) {
+            this.fields[fieldName].message = validator.type[fieldName].message;
+          } else {
+            this.fields[fieldName].message = '';
           }
-        };
+          this.forceUpdate();
+        }
+      };
     }
     return this.fields[fieldName];
   };
@@ -67,7 +65,7 @@ class InputAbstractionRenderProps extends Component {
 export default class Example extends Component {
   render() {
     return (
-      <InputAbstractionRenderProps render={getField => {
+      <FormProvider render={getField => {
         console.log(getField('email'));
         return (
           <form>

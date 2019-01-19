@@ -24,3 +24,6 @@ export default class Todo extends Component {
     return (<div>...</div>);
   }
 }
+
+// Shallow Equality
+// Deep Equality
