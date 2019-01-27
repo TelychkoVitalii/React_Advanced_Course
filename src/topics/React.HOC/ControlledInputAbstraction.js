@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Input } from 'antd';
+import { Input, Button } from 'antd';
 import "antd/dist/antd.css";
 import validator from '../validator';
 
@@ -36,20 +36,18 @@ import validator from '../validator';
 // }
 
 class FormProvider extends Component {
-  fields = {};
+  fields = {
+    request: null
+  };
 
-  getField = fieldName => {
+  getField = (fieldName, action) => {
+    console.log(fieldName);
     if(!this.fields[fieldName]) {
       this.fields[fieldName] = {
-        value: '',
-        message: '',
         onChange: event => {
           this.fields[fieldName].value = event.target.value;
-          if(validator.type[fieldName].rule(this.fields[fieldName].value)) {
-            this.fields[fieldName].message = validator.type[fieldName].message;
-          } else {
-            this.fields[fieldName].message = '';
-          }
+          this.fields[fieldName].message = validator.type[fieldName].rules(this.fields[fieldName].value);
+          this.fields.button.disabled = !!this.fields[fieldName].message;
           this.forceUpdate();
         }
       };
@@ -58,6 +56,7 @@ class FormProvider extends Component {
   };
 
   render() {
+    console.log(this.fields);
     return this.props.render(this.getField);
   }
 }
@@ -65,22 +64,22 @@ class FormProvider extends Component {
 export default class Example extends Component {
   render() {
     return (
-      <FormProvider render={getField => {
-        console.log(getField('email'));
-        return (
+      <FormProvider render={getField => (
           <form>
+            <div>Email: </div>
             <Input type='email' {...getField('email')} />
-            <span>{getField('email').message}</span>
-            <p>Email: {getField('email').value}</p>
-            {/*<Input type="password" {...getField('password')} />*/}
-            {/*<span>{getField('password').message}</span>*/}
+            <div style={{ color: 'red' }}>{getField('email').message}</div>
+
+            <div>Password: </div>
+            <Input type="password" {...getField('password')} />
+            <div style={{ color: 'red' }}>{getField('password').message}</div>
+
+            <Button type='primary' {...getField('button')}>Send</Button>
             {/*<Input type="text" {...getField('firstName')} />*/}
             {/*<p>Password: {getField('password').value}</p>*/}
             {/*<p>FirstName: {getField('firstName').value}</p>*/}
-            <button>Send</button>
           </form>
-        )
-      }} />
+        )} />
     )
   }
 }

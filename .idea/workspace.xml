@@ -2,12 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="950ada79-5827-42db-9260-0ff68edcb28d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/topics/React.HOC/InheritanceInversion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/Atomic_design/large_scale_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.AntiPatterns/Bind_Keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.AntiPatterns/PropDrilling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.AntiPatterns/PropsToState/CopyingPropsToState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.AntiPatterns/PropsToState/ErasingStateWhenPropsChange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.AntiPatterns/PropsToState/Solutions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Component/component_es6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Component/create_react_class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Component/pure_component_es6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.CompoundComponents/BasicExample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.CompoundComponents/Chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Elements/clone_element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Elements/create_element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Elements/create_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Elements/forward_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Elements/fragment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.HOC/BasicExample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.HOC/CompositionOfHOCs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.HOC/NamingCaseStudies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/ComponentDidMount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/Constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/GetDerivedStateFromProps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Lifecycles/UnMounting/ComponentWillUnmount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Lifecycles/Updating/GetSnapshotBeforeUpdateAndComponentDidUpdate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Lifecycles/Updating/ShouldComponentUpdate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.RenderProps/BasicExample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.ReusableUI/AdvancedForms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.ReusableUI/ValidationMessages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.ReusableUI/ValidationSchema.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/topics/React.HOC/ControlledInputAbstraction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/topics/React.HOC/ControlledInputAbstraction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topics/React.Performance/Recompose.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/topics/React.Performance/Recompose.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topics/React.Performance/ShouldComponentUpdate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/topics/React.Performance/ShouldComponentUpdate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/topics/validator.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,41 +49,42 @@
     <session id="824198149">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.0" value="9" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="js" value="50" />
+          <entry key="js" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="JavaScript" value="50" />
+          <entry key="JavaScript" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="9" />
+          <entry key="ESLintLanguageService" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="9665" />
+          <entry key="js" value="14958" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="9665" />
+          <entry key="JavaScript" value="14958" />
         </counts>
       </usages-collector>
     </session>
@@ -64,10 +92,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/topics/React.Performance/ShouldComponentUpdate.js">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+            <state relative-caret-position="474">
+              <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/UnMounting/ComponentWillUnmount.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -102,13 +139,28 @@
         <option value="$PROJECT_DIR$/src/topics/React.HOC/ControlledInputAbstraction.css" />
         <option value="$PROJECT_DIR$/src/topics/React.RenderProps/LiftingState.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Performance/shouldComponentUpdate.js" />
-        <option value="$PROJECT_DIR$/src/topics/validator.js" />
-        <option value="$PROJECT_DIR$/src/topics/React.HOC/ControlledInputAbstraction.js" />
         <option value="$PROJECT_DIR$/src/topics/React.HOC/InheritanceInversion.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Performance/ShouldComponentUpdate.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Performance/PureComponent.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Performance/Recompose.js" />
+        <option value="$PROJECT_DIR$/src/topics/validator.js" />
+        <option value="$PROJECT_DIR$/src/topics/boo.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.HOC/ControlledInputAbstraction.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/ComponentDidMount.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/Render.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/ComponentDidMount.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/Constructor.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/GetDerivedStateFromProps.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.AntiPatterns/CopyingPropsToState.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.AntiPatterns/ErasingStateWhenPropsChange.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.AntiPatterns/PropsToState/ErasingStateWhenPropsChange.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.AntiPatterns/PropsToState/Solutions.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/Updating/ShouldComponentUpdate.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/Updating/GetSnapshotBeforeUpdate.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/Updating/GetSnapshotBeforeUpdateAndComponentDidUpdate.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Elements/fragment.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/UnMounting/ComponentWillUnmount.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -157,6 +209,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="topics" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="react_tutor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_tutor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="topics" type="462c0819:PsiDirectoryNode" />
+              <item name="React.Lifecycles" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -175,6 +234,18 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\react_tutor\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\react_tutor\src\topics" />
+      <recent name="D:\react_tutor\src\topics\React.RenderProps" />
+      <recent name="D:\react_tutor\src\topics\React.AntiPatterns" />
+      <recent name="D:\react_tutor\src\topics\React.HOC" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\react_tutor\src\topics\React.AntiPatterns\PropsToState" />
+      <recent name="D:\react_tutor\src\topics\React.Lifecycles\Mounting" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,12 +277,21 @@
       <workItem from="1547810467484" duration="4887000" />
       <workItem from="1547829555410" duration="720000" />
       <workItem from="1547844461468" duration="2652000" />
-      <workItem from="1547891169802" duration="4675000" />
+      <workItem from="1547891169802" duration="4853000" />
+      <workItem from="1548016897891" duration="7879000" />
+      <workItem from="1548059954392" duration="596000" />
+      <workItem from="1548152165556" duration="95000" />
+      <workItem from="1548174900235" duration="47000" />
+      <workItem from="1548431501597" duration="1859000" />
+      <workItem from="1548440871018" duration="22000" />
+      <workItem from="1548521220544" duration="3564000" />
+      <workItem from="1548591646562" duration="505000" />
+      <workItem from="1548614587871" duration="11031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35883000" />
+    <option name="totallyTimeSpent" value="61659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -244,16 +324,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Children/BasicExample.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/topics/React.RenderProps/SlotPattern.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -296,37 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.HOC/ControlledInputAbstraction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-576">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/validator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Children/ChildrenManipulating.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Children/ChildrenEditing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/topics/React.HOC/InheritanceInversion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -355,13 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/topics/React.Performance/PureComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -373,16 +405,182 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/boo.js" />
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Children/ChildrenEditing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.HOC/ControlledInputAbstraction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="76" column="56" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/Render.js" />
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/ComponentDidMount.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/Constructor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/GetDerivedStateFromProps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.AntiPatterns/PropsToState/ErasingStateWhenPropsChange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.AntiPatterns/PropsToState/Solutions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.AntiPatterns/PropsToState/CopyingPropsToState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/topics/React.Performance/ShouldComponentUpdate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/Updating/GetSnapshotBeforeUpdateAndComponentDidUpdate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/Updating/ShouldComponentUpdate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.HOC/NamingCaseStudies.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.HOC/BasicExample.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.HOC/CompositionOfHOCs.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Children/BasicExample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Children/ChildrenManipulating.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.AntiPatterns/PropDrilling.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.AntiPatterns/Bind_Keys.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.ReusableUI/ValidationMessages.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.ReusableUI/ValidationSchema.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.ReusableUI/AdvancedForms.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Elements/fragment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.CompoundComponents/Chat.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Component/component_es6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/Atomic_design/large_scale_app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.RenderProps/BasicExample.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/UnMounting/ComponentWillUnmount.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
         </state>
       </provider>
     </entry>
