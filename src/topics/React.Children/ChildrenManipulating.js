@@ -9,7 +9,7 @@ class IgnoreFirstChild extends Component {
     return (
       <>
         {/*{Children.count(this.props.children)}*/}
-        {/*<pre>{Children.toArray(this.props.children)}</pre>*/}
+        {/*<pre>{console.log(Children.toArray(this.props.children))}</pre>*/}
         {Children.map(this.props.children, (child, index) => {
           if(index < 1) return;
           return child;

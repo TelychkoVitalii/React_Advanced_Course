@@ -8,7 +8,7 @@ import React from 'react';
 // 5. http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 // 6. rename-unsafe-lifecycles codemod - to automatically update for new versions
 
-class ComponentES6 extends React.Component {
+export default class ComponentES6 extends React.Component {
     // 1. Called before component is mounted
     // 2. Need only for initialize state and bind methods
     // 3. Do not call setState here!
@@ -84,5 +84,3 @@ class ComponentES6 extends React.Component {
         )
     }
 }
-
-export default ComponentES6;

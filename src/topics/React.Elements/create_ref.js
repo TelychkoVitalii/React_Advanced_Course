@@ -1,24 +1,20 @@
-import React, { Component, Fragment, createRef } from 'react';
+import React, { Component, createRef } from 'react';
 
-class CreateRef extends Component {
-    constructor(props) {
-        super(props);
-        this.inputRef = createRef();
-    }
+export default class CreateRef extends Component {
+  inputRef = createRef();
 
-    componentDidMount() {
-        this.inputRef.current.focus(); // always have current property
-        console.log(this.inputRef.current.value)
-    }
+  componentDidMount() {
+    this.inputRef.current.focus(); // always have current property
+  }
 
-    render() {
-        return (
-            <Fragment>
-                <!-- may not use with functional component, only near and class component -->
-                <input type="text" ref={this.inputRef} defaultValue='Fuck'/>
-            </Fragment>
-        )
-    }
+  focusInput = () => console.log(this.inputRef.current.value);
+  blurInput = () => console.log(this.inputRef.current.value);
+  render() {
+    // may not use with functional component, only near and class component
+    return (
+      <>
+        <input onFocus={this.focusInput} onBlur={this.blurInput} type="text" ref={this.inputRef} defaultValue='Fuck'/>
+      </>
+    )
+  }
 }
-
-export default CreateRef;

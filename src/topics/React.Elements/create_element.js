@@ -1,8 +1,16 @@
-import React, { Component } from 'react';
+import { Component, createElement } from 'react';
 
 class CreateElement extends Component {
     render() {
-        return React.createElement('h2', null, `Hello, ${this.props.toWhat}`);
+        return createElement('div', this.props,
+            createElement('h1', {}, 'My favorite ice creams'),
+            createElement('ul', {},
+              [
+                createElement('li', { key: '1' }, 'Chocolate'),
+                createElement('li', { key: '2' }, 'Vanilla'),
+                createElement('li', { key: '3' }, 'Banana')
+              ])
+          );
     }
 }
 

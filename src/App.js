@@ -24,11 +24,34 @@ import React, { Component } from 'react';
 // import PropsToStateSolutions from './topics/React.AntiPatterns/PropsToState/Solutions';
 // import GetSnapshotBeforeUpdateAndComponentDidUpdate from './topics/React.Lifecycles/Updating/GetSnapshotBeforeUpdateAndComponentDidUpdate';
 // import ComponentWillUnmount from './topics/React.Lifecycles/UnMounting/ComponentWillUnmount';
+// import ComponentDidCatchComponent from './topics/React.Lifecycles/ErrorHandling/ComponentDidCatch';
+// import GetDerivedStateFromErrorComponent from './topics/React.Lifecycles/ErrorHandling/GetDerivedStateFromError';
+// import CreateElement from './topics/React.Elements/create_element';
+// import CloneElement from './topics/React.Elements/clone_element';
+// import CreateRef from './topics/React.Elements/create_ref';
+// import ForwardRef from './topics/React.Elements/forward_ref';
+// import RRBasicExample from './topics/React.Router/BasicExample';
+// import URLParamsExample from './topics/React.Router/URLParamsExample';
+// import NoMatchExample from './topics/React.Router/NoMatchExample';
+// import RouteConfigExample from './topics/React.Router/RouteConfigExample';
+// import RecursivePathExample from './topics/React.Router/RecursivePathExample';
+import CodeSplittingExample from './topics/React.Router/LazyLoading/CodeSplittingExample';
 
 export default class App extends Component {
+  // LAZY, SUSPENSE, MEMO
   render() {
     return (
       <>
+        <CodeSplittingExample />
+        {/*<RecursivePathExample />*/}
+        {/*<RouteConfigExample />*/}
+        {/*<NoMatchExample />*/}
+        {/*<URLParamsExample />*/}
+        {/*<RRBasicExample />*/}
+        {/*<ForwardRef />*/}
+        {/*<CreateRef />*/}
+        {/*<CloneElement />*/}
+        {/*<CreateElement name='John' />*/}
         {/*<Children />*/}
         {/*<FunctionAsChild />*/}
         {/*<ChildrenEditing />*/}
@@ -54,6 +77,8 @@ export default class App extends Component {
         {/*<PropsToStateSolutions />*/}
         {/*<GetSnapshotBeforeUpdateAndComponentDidUpdate />*/}
         {/*<ComponentWillUnmount />*/}
+        {/*<ComponentDidCatchComponent />*/}
+        {/*<GetDerivedStateFromErrorComponent />*/}
       </>
     );
   }

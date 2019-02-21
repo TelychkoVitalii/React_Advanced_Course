@@ -10,7 +10,7 @@ export default class GetSnapshotBeforeUpdateAndComponentDidUpdate extends Compon
   };
 
 
-  // This method is invoked right before right before mutations are made (for example, before the DOM is updated).
+  // This method is invoked right before mutations are made (for example, before the DOM is updated).
   // We can capture current values before they are potential changed
   getSnapshotBeforeUpdate(props, state) {
     console.log(props, state);
