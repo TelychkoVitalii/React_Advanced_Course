@@ -35,14 +35,17 @@ import React, { Component } from 'react';
 // import NoMatchExample from './topics/React.Router/NoMatchExample';
 // import RouteConfigExample from './topics/React.Router/RouteConfigExample';
 // import RecursivePathExample from './topics/React.Router/RecursivePathExample';
-import CodeSplittingExample from './topics/React.Router/LazyLoading/CodeSplittingExample';
+// import CodeSplittingExample from './topics/React.Router/LazyLoading/CodeSplittingExample';
+// import Memo from './topics/React.Router/React.Memo';
+import { ToolTipWithPortal } from "./topics/React.Portals/Tooltip";
 
 export default class App extends Component {
-  // LAZY, SUSPENSE, MEMO
   render() {
     return (
       <>
-        <CodeSplittingExample />
+        <ToolTipWithPortal />
+        {/*<Memo />*/}
+        {/*<CodeSplittingExample />*/}
         {/*<RecursivePathExample />*/}
         {/*<RouteConfigExample />*/}
         {/*<NoMatchExample />*/}

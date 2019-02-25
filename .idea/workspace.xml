@@ -2,43 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="950ada79-5827-42db-9260-0ff68edcb28d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/BasicExample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/AsyncComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Blog/Blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Blog/Blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/CodeSplittingExample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Home/Home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Maps/Maps.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Maps/Maps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/NavButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/NotFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/NoMatchExample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/Philosophy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/RecursivePathExample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/RouteConfigExample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/ScrollRestorationExample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/URLParamsExample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Portals/MyPortal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Portals/ToolTip.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Portals/Tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Redux/Provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Redux/connect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Redux/connectAdvanced.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Redux/mapDispatchToProps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Redux/mapStateToProps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Redux/mergeProps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topics/React.Router/React.Memo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topics/React.Children/ChildrenManipulating.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/topics/React.Children/ChildrenManipulating.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topics/React.Component/component_es6.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/topics/React.Component/component_es6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topics/React.Elements/clone_element.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/topics/React.Elements/clone_element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topics/React.Elements/create_element.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/topics/React.Elements/create_element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topics/React.Elements/create_ref.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/topics/React.Elements/create_ref.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topics/React.Elements/forward_ref.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/topics/React.Elements/forward_ref.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topics/React.Lifecycles/ErrorHandling/ComponentDidCatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/topics/React.Lifecycles/ErrorHandling/ComponentDidCatch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topics/React.Lifecycles/ErrorHandling/GetDerivedStateFromError.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/topics/React.Lifecycles/ErrorHandling/GetDerivedStateFromError.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topics/React.Lifecycles/Updating/GetSnapshotBeforeUpdateAndComponentDidUpdate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/topics/React.Lifecycles/Updating/GetSnapshotBeforeUpdateAndComponentDidUpdate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topics/React.ReusableUI/AdvancedForms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/AsyncComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/AsyncComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Maps/Maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Maps/Maps.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,49 +33,50 @@
     <session id="824198149">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
-          <entry key="project.open.time.0" value="16" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="31" />
+          <entry key="project.open.time.0" value="17" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="babelrc" value="1" />
-          <entry key="css" value="8" />
-          <entry key="js" value="163" />
+          <entry key="css" value="9" />
+          <entry key="js" value="179" />
           <entry key="json" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="8" />
+          <entry key="CSS" value="9" />
           <entry key="JSON" value="10" />
-          <entry key="JavaScript" value="163" />
+          <entry key="JavaScript" value="179" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="26" />
+          <entry key="ESLintLanguageService" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="27" />
-          <entry key="js" value="19269" />
+          <entry key="js" value="20182" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="27" />
-          <entry key="JavaScript" value="19269" />
+          <entry key="JavaScript" value="20182" />
         </counts>
       </usages-collector>
     </session>
@@ -103,42 +84,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/CodeSplittingExample.js">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/App.js">
+        <entry file="file://$PROJECT_DIR$/src/topics/React.Portals/Tooltip.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/AsyncComponent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Home/Home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="380">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/topics/React.Portals/MyPortal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,16 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/Render.js" />
-        <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/ComponentDidMount.js" />
-        <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/Constructor.js" />
-        <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/GetDerivedStateFromProps.js" />
-        <option value="$PROJECT_DIR$/src/topics/React.AntiPatterns/CopyingPropsToState.js" />
-        <option value="$PROJECT_DIR$/src/topics/React.AntiPatterns/ErasingStateWhenPropsChange.js" />
-        <option value="$PROJECT_DIR$/src/topics/React.AntiPatterns/PropsToState/ErasingStateWhenPropsChange.js" />
-        <option value="$PROJECT_DIR$/src/topics/React.AntiPatterns/PropsToState/Solutions.js" />
-        <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/Updating/ShouldComponentUpdate.js" />
-        <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/Updating/GetSnapshotBeforeUpdate.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Elements/fragment.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/UnMounting/ComponentWillUnmount.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Lifecycles/ErrorHandling/ComponentDidCatch.js" />
@@ -193,7 +155,6 @@
         <option value="$PROJECT_DIR$/src/topics/React.Router/RouteConfigExample.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Router/RecursivePathExample.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Router/ScrollRestorationExample.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Router/CodeSplittingExample.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/App.css" />
@@ -203,14 +164,25 @@
         <option value="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Home/Home.css" />
         <option value="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/NavButton.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Home/Home.js" />
-        <option value="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Maps/Maps.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Maps/Maps.css" />
         <option value="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Blog/Blog.css" />
         <option value="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Blog/Blog.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Blog.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/NotFound.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Maps/Maps.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/AsyncComponent.js" />
         <option value="$PROJECT_DIR$/src/topics/React.Router/LazyLoading/App.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Router/React.Memo.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Redux/connect.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Redux/mapStateToProps.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Redux/mapDispatchToProps.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Redux/mergeProps.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Redux/Provider.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Redux/connectAdvanced.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Portals/MyPortal.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Portals/ToolTip.styles.js" />
+        <option value="$PROJECT_DIR$/src/topics/React.Portals/Tooltip.js" />
       </list>
     </option>
   </component>
@@ -241,6 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,31 +232,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="topics" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="react_tutor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_tutor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="topics" type="462c0819:PsiDirectoryNode" />
-              <item name="React.Router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_tutor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_tutor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="topics" type="462c0819:PsiDirectoryNode" />
-              <item name="React.Router" type="462c0819:PsiDirectoryNode" />
-              <item name="LazyLoading" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/sbf.development.crm" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -357,12 +314,16 @@
       <workItem from="1550349427664" duration="6447000" />
       <workItem from="1550416774238" duration="9662000" />
       <workItem from="1550743696164" duration="624000" />
-      <workItem from="1550766045189" duration="2703000" />
+      <workItem from="1550766045189" duration="2913000" />
+      <workItem from="1550825420056" duration="9082000" />
+      <workItem from="1550922289332" duration="25000" />
+      <workItem from="1551034218741" duration="1562000" />
+      <workItem from="1551092290692" duration="5666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92717000" />
+    <option name="totallyTimeSpent" value="109262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -395,72 +356,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/topics/React.AntiPatterns/PropsToState/ErasingStateWhenPropsChange.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/UnMounting/ComponentWillUnmount.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/Updating/ShouldComponentUpdate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/ComponentDidMount.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/Constructor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/Mounting/GetDerivedStateFromProps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/Updating/GetSnapshotBeforeUpdateAndComponentDidUpdate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/ErrorHandling/GetDerivedStateFromError.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Lifecycles/ErrorHandling/ComponentDidCatch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/topics/React.ReusableUI/AdvancedForms.js" />
     <entry file="file://$PROJECT_DIR$/src/topics/React.ReusableUI/ValidationMessages.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -604,9 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -635,23 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Maps/Maps.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -665,20 +540,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Maps/Maps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Blog.js" />
     <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/NotFound.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -690,19 +552,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Maps.js" />
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Maps/Maps.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Maps/Maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Home/Home.js">
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/AsyncComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -716,20 +604,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/Maps.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/AsyncComponent.js">
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Router/React.Memo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="95">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/topics/React.Router/LazyLoading/App.js">
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Redux/connectAdvanced.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Redux/Provider.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Redux/mergeProps.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Redux/mapDispatchToProps.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Redux/mapStateToProps.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Redux/connect.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="456">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Portals/ToolTip.styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Portals/MyPortal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/topics/React.Portals/Tooltip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

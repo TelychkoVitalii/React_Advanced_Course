@@ -13,7 +13,7 @@ const MapsView = ({ text }) => (
 
 export default class Maps extends Component {
   static defaultProps = {
-    center: {lat: 6.5244, lng: 3.3792},
+    center: { lat: 6.5244, lng: 3.3792 },
     zoom: 11
   };
 
